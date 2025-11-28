@@ -1,0 +1,49 @@
+diff --git a/include/vsg/core/Array.h b/include/vsg/core/Array.h
+index 1234567..89abcde 100644
+--- a/include/vsg/core/Array.h
++++ b/include/vsg/core/Array.h
+@@ -34,7 +34,7 @@ namespace vsg
+ {
+     template<typename T>
+-    class VSG_DECLSPEC Array : public Data
++    class Array : public Data
+     {
+     public:
+         using value_type = T;
+diff --git a/include/vsg/core/Array2D.h b/include/vsg/core/Array2D.h
+index 1234567..89abcde 100644
+--- a/include/vsg/core/Array2D.h
++++ b/include/vsg/core/Array2D.h
+@@ -32,7 +32,7 @@ namespace vsg
+ {
+
+     template<typename T>
+-    class VSG_DECLSPEC Array2D : public Data
++    class Array2D : public Data
+     {
+     public:
+         using value_type = T;
+diff --git a/include/vsg/core/Array3D.h b/include/vsg/core/Array3D.h
+index 1234567..89abcde 100644
+--- a/include/vsg/core/Array3D.h
++++ b/include/vsg/core/Array3D.h
+@@ -32,7 +32,7 @@ namespace vsg
+ {
+     template<typename T>
+-    class VSG_DECLSPEC Array3D : public Data
++    class Array3D : public Data
+     {
+     public:
+         using value_type = T;
+diff --git a/include/vsg/core/Value.h b/include/vsg/core/Value.h
+index 1234567..89abcde 100644
+--- a/include/vsg/core/Value.h
++++ b/include/vsg/core/Value.h
+@@ -38,7 +38,7 @@ namespace vsg
+ {
+     template<typename T>
+-    class VSG_DECLSPEC Value : public Data
++    class Value : public Data
+     {
+     public:
+         using value_type = T;
